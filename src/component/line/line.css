@@ -1,0 +1,12 @@
+#line {
+  height: 1vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  height: 1px;
+  background: white;
+  width: 80%;
+}

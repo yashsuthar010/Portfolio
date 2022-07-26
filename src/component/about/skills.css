@@ -1,0 +1,55 @@
+.text-box h3 {
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+.page-wrap {
+  padding: 2em;
+  background-color: #fff;
+  width: 50%;
+  margin: 0 auto;
+}
+.skill-bar-container {
+  position: relative;
+  width: 100%;
+  border-radius: 4px;
+  background-color: whitesmoke;
+  margin-bottom: 0.5em;
+}
+.skill-bar-container .skill-bar {
+  display: block;
+  border-radius: 4px;
+  height: 25px;
+}
+.skill-bar-container .skill-bar.level1 {
+  width: 20%;
+  background-color: #d7edfa;
+}
+.skill-bar-container .skill-bar.level2 {
+  width: 40%;
+  background-color: #c8e7f8;
+}
+.skill-bar-container .skill-bar.level3 {
+  width: 60%;
+  background-color: #b9e0f7;
+}
+.skill-bar-container .skill-bar.level4 {
+  width: 80%;
+  background-color: #a9d9f5;
+}
+.skill-bar-container .skill-bar.level5 {
+  width: 100%;
+  background-color: #9ad3f3;
+}
+.skill-bar-container .skill-name {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: #333;
+}
+.skill-bar-container .skill-percent {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #999;
+}

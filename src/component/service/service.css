@@ -1,0 +1,60 @@
+.service {
+  height: 80vh;
+  background: #000;
+  padding: 5% 10%;
+}
+
+.service-container {
+  padding: 10px 25px;
+  height: 80vh;
+  border-radius: 20px;
+  background: linear-gradient(to left, rgb(2, 56, 60), rgb(4, 23, 49));
+}
+
+.service-container h2 {
+  font-size: 3rem;
+}
+
+.services {
+  height: 60vh;
+  display: grid;
+  column-gap: 20px;
+  flex-shrink: none;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.service0 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+
+  align-items: center;
+}
+.service0 h3 {
+  font-weight: bold;
+  /* margin: 3px; */
+  /* color: white; */
+  color: gray;
+}
+.service0 p {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.service-img {
+  height: 60%;
+  /* padding: 10px; */
+  width: 90%;
+  transition: all ease-in-out 0.3s;
+}
+.service-img:hover {
+  transform: scale(1.1);
+}
+
+.service0 img {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
