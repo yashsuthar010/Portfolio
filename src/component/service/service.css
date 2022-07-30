@@ -18,16 +18,18 @@
 .services {
   height: 60vh;
   display: grid;
-  column-gap: 20px;
-  flex-shrink: none;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  padding: 5px 10px;
+  /* column-gap: 1px; */
+  /* grid-template-columns: repeat(auto-fit, 285px); */
+  grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
 }
 
 .service0 {
+  padding: 5px 2px 0 2px;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
-
   align-items: center;
 }
 .service0 h3 {
@@ -45,16 +47,16 @@
 .service-img {
   height: 60%;
   /* padding: 10px; */
-  width: 90%;
+  width: 80%;
   transition: all ease-in-out 0.3s;
 }
 .service-img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .service0 img {
   border-radius: 30px;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }

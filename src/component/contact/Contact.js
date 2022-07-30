@@ -39,8 +39,9 @@ const Contact = () => {
             <h2>Get in Touch!</h2>
             <p>
               Have a project for me? I'd love to hear from you, give me a shout
+              by
               <br />
-              by email or by using the contact form.
+              email or by using the contact form.
             </p>
             <div className="svg">
               <img src={contactbg}></img>

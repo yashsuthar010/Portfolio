@@ -13,9 +13,7 @@ const Footer = () => {
           <h2>Yash</h2>
         </div>
         <div>
-          <button>
-            <CgChevronDoubleUpR style={{ color: "white", fontSize: "40px" }} />
-          </button>
+          <CgChevronDoubleUpR style={{ color: "white", fontSize: "40px" }} />
         </div>
         <div>
           <ul className="icons">
