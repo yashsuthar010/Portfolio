@@ -12,7 +12,7 @@ const Footer = () => {
         <div>
           <h2>Yash</h2>
         </div>
-        <div>
+        <div id="backtotop">
           <CgChevronDoubleUpR style={{ color: "white", fontSize: "40px" }} />
         </div>
         <div>

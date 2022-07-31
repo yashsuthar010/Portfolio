@@ -1,9 +1,7 @@
 import React from "react";
 import "./hero.css";
 import "./button.css";
-// import bg1 from "../../assests/bg1.jpg";
 import video1 from "../../assests/video1.mp4";
-// import Contact from "../contact/Contact";
 
 const Hero = () => {
   return (

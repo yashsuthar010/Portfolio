@@ -22,7 +22,7 @@ const Project = () => {
                 </div>
                 <ul className="sci">
                   <a
-                    href="https://www.hackerrank.com/ysuthar071"
+                    href="https://github.com/yashsuthar010/SpeakandHear-with-Reactjs"
                     target="_blank"
                   >
                     <button className="project-btn">View</button>
@@ -40,7 +40,7 @@ const Project = () => {
                 </div>
                 <ul className="sci">
                   <a
-                    href="https://www.hackerrank.com/ysuthar071"
+                    href="https://github.com/yashsuthar010/student-portal"
                     target="_blank"
                   >
                     <button className="project-btn">View</button>
@@ -58,7 +58,7 @@ const Project = () => {
                 </div>
                 <ul className="sci">
                   <a
-                    href="https://www.hackerrank.com/ysuthar071"
+                    href="https://github.com/yashsuthar010/tourism-web-application"
                     target="_blank"
                   >
                     <button className="project-btn">View</button>
@@ -111,7 +111,10 @@ const Project = () => {
                   </div>
                 </div>
                 <ul className="sci">
-                  <a href="https://leetcode.com/ysuthar071/" target="_blank">
+                  <a
+                    href="https://github.com/yashsuthar010/Portfolio"
+                    target="_blank"
+                  >
                     <button className="project-btn">View</button>
                   </a>
                 </ul>
