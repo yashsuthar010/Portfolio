@@ -56,6 +56,7 @@ const About = () => {
                 </div>
               </div>
               <br />
+              <br />
               <h3 id="h3">My Skills</h3>
               <div class="text-box">
                 <div class="skill-bar-container">
