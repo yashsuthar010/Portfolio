@@ -38,10 +38,20 @@ const Contact = () => {
           <div className="contact-one">
             <h2>Get in Touch!</h2>
             <p>
+              <span
+                style={{ color: "red", fontWeight: "bold", fontSize: "1.2rem" }}
+              >
+                "
+              </span>
               Have a project for me? I'd love to hear from you, give me a shout
               by
               <br />
-              email or by using the contact form.
+              email or by using the contact form
+              <span
+                style={{ color: "red", fontWeight: "bold", fontSize: "1.2rem" }}
+              >
+                "
+              </span>
             </p>
             <div className="svg">
               <img src={contactbg2}></img>
@@ -51,22 +61,25 @@ const Contact = () => {
             <h2>Contact</h2>
             <ul className="contact-icons">
               <li>
-                <a href="https://github.com/yashsuthar010">
+                <a href="https://github.com/yashsuthar010" target="_blank">
                   <AiFillGithub />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/yashsuthar010">
+                <a
+                  href="https://www.linkedin.com/in/yash-suthar005/"
+                  target="_blank"
+                >
                   <FiLinkedin />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/yashsuthar010">
+                <a href="gvice008@gmail.com" target="_blank">
                   <SiMinutemailer />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/yashsuthar010">
+                <a href="https://twitter.com/YashSut95822902" target="_blank">
                   <AiFillTwitterCircle />
                 </a>
               </li>

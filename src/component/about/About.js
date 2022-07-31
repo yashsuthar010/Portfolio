@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import "./skills.css";
-import rahul1 from "../../assests/rahul1.png";
+import rahul2 from "../../assests/rahul2.png";
 import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
 import { FiLinkedin } from "react-icons/fi";
 import { SiMinutemailer } from "react-icons/si";
@@ -92,7 +92,7 @@ const About = () => {
             </div>
 
             <div className="one">
-              <img src={rahul1} id="rahul"></img>
+              <img src={rahul2} id="rahul"></img>
             </div>
           </div>
         </div>

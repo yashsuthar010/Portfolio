@@ -126,11 +126,11 @@ input[type="email"] {
 }
 input[type="text"]:focus {
   opacity: 1;
-  border-bottom: #ffafaf solid 3px;
+  border-bottom: #44149d solid 3px;
 }
 input[type="email"]:focus {
   opacity: 1;
-  border-bottom: #ffafaf solid 3px;
+  border-bottom: #44149d solid 3px;
 }
 textarea {
   background: #f1f1f1;
@@ -145,7 +145,7 @@ textarea {
 
 textarea:focus {
   opacity: 1;
-  border-bottom: #ffafaf solid 3px;
+  border-bottom: #44149d solid 3px;
 }
 
 #submit {

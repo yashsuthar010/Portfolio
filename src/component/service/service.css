@@ -10,7 +10,7 @@
   height: 50vh;
   border-radius: 20px;
   /* background: linear-gradient(to left, rgb(2, 56, 60), rgb(4, 23, 49)); */
-  background: #2a3174f0;
+  background: #534e6dc2;
 }
 
 .service h2 {
@@ -39,7 +39,7 @@
   font-weight: bold;
   /* margin: 3px; */
   /* color: white; */
-  color: rgb(168, 168, 168);
+  color: rgb(255, 255, 255);
 }
 .service0 p {
   color: white;

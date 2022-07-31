@@ -29,16 +29,27 @@ const Nav = () => {
         <div>
           <ul className="icons">
             <li>
-              <AiFillGithub />
+              <a href="https://github.com/yashsuthar010" target="_blank">
+                <AiFillGithub />
+              </a>
             </li>
             <li>
-              <FiLinkedin />
+              <a
+                href="https://www.linkedin.com/in/yash-suthar005/"
+                target="_blank"
+              >
+                <FiLinkedin />
+              </a>
             </li>
             <li>
-              <SiMinutemailer />
+              <a href="gvice008@gmail.com" target="_blank">
+                <SiMinutemailer />
+              </a>
             </li>
             <li>
-              <AiFillTwitterCircle />
+              <a href="https://twitter.com/YashSut95822902" target="_blank">
+                <AiFillTwitterCircle />
+              </a>
             </li>
           </ul>
         </div>

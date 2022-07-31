@@ -11,10 +11,10 @@ body {
 }
 
 .hero-container {
+  position: relative;
   border-radius: 25px 25px 0 0;
   height: 90vh;
   overflow: hidden;
-  position: relative;
   width: 100%;
 }
 
@@ -52,7 +52,7 @@ video {
 }
 
 .hero-container h1 {
-  color: #ffffff;
+  color: #918f8f;
 
   font-family: "poppins", sans-serif;
   -webkit-mask-image: linear-gradient(

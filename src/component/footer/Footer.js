@@ -18,22 +18,25 @@ const Footer = () => {
         <div>
           <ul className="icons">
             <li>
-              <a href="https://github.com/yashsuthar010">
+              <a href="https://github.com/yashsuthar010" target="_blank">
                 <AiFillGithub />
               </a>
             </li>
             <li>
-              <a href="https://github.com/yashsuthar010">
+              <a
+                href="https://www.linkedin.com/in/yash-suthar005/"
+                target="_blank"
+              >
                 <FiLinkedin />
               </a>
             </li>
             <li>
-              <a href="https://github.com/yashsuthar010">
+              <a href="gvice008@gmail.com" target="_blank">
                 <SiMinutemailer />
               </a>
             </li>
             <li>
-              <a href="https://github.com/yashsuthar010">
+              <a href="https://twitter.com/YashSut95822902" target="_blank">
                 <AiFillTwitterCircle />
               </a>
             </li>

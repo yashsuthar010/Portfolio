@@ -107,12 +107,12 @@ const Project = () => {
                     <img src={leet} />
                   </div>
                   <div className="contentBx">
-                    <h3>Leetcode</h3>
+                    <h3>Portfolio</h3>
                   </div>
                 </div>
                 <ul className="sci">
                   <a href="https://leetcode.com/ysuthar071/" target="_blank">
-                    <button>View</button>
+                    <button className="project-btn">View</button>
                   </a>
                 </ul>
               </div>
