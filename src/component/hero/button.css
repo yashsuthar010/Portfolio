@@ -16,6 +16,7 @@
   transition-property: background-position, border, color;
   position: relative;
   z-index: 1;
+  font-weight: bold;
 }
 
 .btn:hover {
@@ -63,7 +64,7 @@
   height: 50%;
   left: -0.5rem;
   top: -0.5rem;
-  border: 1px solid white;
+  border: 1px solid black;
   border-bottom: 0px;
   opacity: 0.3;
 }
@@ -75,7 +76,7 @@
   height: 50%;
   left: -0.5rem;
   bottom: -0.5rem;
-  border: 1px solid white;
+  border: 1px solid black;
   border-top: 0px;
   opacity: 0.3;
   z-index: 0;
@@ -88,6 +89,102 @@
 }
 
 .btn-container {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+.btn3 {
+  cursor: pointer;
+  font-family: "Ropa sans", Helvetica;
+  font-size: 0.9rem;
+  /* font-weight: bold; */
+  letter-spacing: 0.05rem;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  background-image: url("../../assests/valorant.png");
+  background-size: 140%;
+  background-position: 500%;
+  background-repeat: no-repeat;
+  transition: 0.3s ease-out;
+  transition-property: background-position, border, color;
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.btn3:hover {
+  border: 1px solid (--primary-color);
+  color: white;
+  background-position: 50%;
+}
+
+.btn3::before {
+  content: "";
+  position: absolute;
+  background-color: (--background-color);
+  width: 0.2rem;
+  height: 0.2rem;
+  top: -1px;
+  left: -1px;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.btn3:hover:before {
+  background-color: (--primary-color);
+}
+
+.btn3::after {
+  content: "";
+  position: absolute;
+  background-color: (--background-color);
+  width: 0.4rem;
+  height: 0.4rem;
+  bottom: -1px;
+  right: -1px;
+  /* transition: background-color 0.15s ease-in-out; */
+}
+
+.btn-border3 {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.btn3::before {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.9rem);
+  height: 50%;
+  left: -0.5rem;
+  top: -0.5rem;
+  border: 1px solid white;
+  border-bottom: 0px;
+  opacity: 0.3;
+}
+
+.btn3::after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.9rem);
+  height: 50%;
+  left: -0.5rem;
+  bottom: -0.5rem;
+  border: 1px solid white;
+  border-top: 0px;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.btn-container3 {
+  position: absolute;
+  bottom: 30%;
+  left: 8%;
+}
+
+.btn-container3 {
   position: absolute;
   top: 70%;
   left: 50%;

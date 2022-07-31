@@ -1,12 +1,13 @@
 .contact {
   height: 100vh;
-  background: #000;
-  padding: 5% 10%;
+  background: white;
+  padding: 3% 10%;
 }
 
 .contact-container {
   /* background: linear-gradient(to left, rgb(0, 0, 0), #576f72); */
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
   display: flex;
   height: 100vh;
 }
@@ -14,39 +15,44 @@
 .contact-one {
   width: 50%;
   position: relative;
-  color: white;
+  color: black;
+  /* background: #0078aa; */
+  background: white;
 
-  padding: 5px 15px;
+  overflow: hidden;
+  padding: 5px 15px 0 50px;
 }
 
 .contact-one h2 {
   font-size: 2.5rem;
+  color: black;
 }
 
 .svg {
-  height: 60vh;
-  width: 90%;
+  height: 70vh;
+  width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
+  padding-right: 5%;
 }
 
 img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .contact-two {
   width: 50%;
   display: flex;
   flex-direction: column;
-  background: white;
+  background: #ecb828;
   border-radius: 10px;
 }
 
 .contact-two h2 {
-  color: #000;
+  color: white;
 
   display: flex;
   flex-direction: column;
@@ -113,23 +119,23 @@ input[type="email"] {
   /* margin: 0px 90px; */
   display: inline-block;
   border: none;
-  background: #f1f1f1;
+  background: #ffffff;
   border-radius: 10px;
-  opacity: 0.4;
+  opacity: 0.8;
   outline: none;
 }
 input[type="text"]:focus {
-  opacity: 0.8;
+  opacity: 1;
   border-bottom: #ffafaf solid 3px;
 }
 input[type="email"]:focus {
-  opacity: 0.8;
+  opacity: 1;
   border-bottom: #ffafaf solid 3px;
 }
 textarea {
   background: #f1f1f1;
   outline: none;
-  opacity: 0.4;
+  opacity: 0.8;
   border: none;
 
   border-radius: 5px;
@@ -138,15 +144,15 @@ textarea {
 }
 
 textarea:focus {
-  opacity: 0.8;
+  opacity: 1;
   border-bottom: #ffafaf solid 3px;
 }
 
 #submit {
   padding: 10px 10px;
-  border: solid #fba1a1;
+  border: solid #44149d;
   border-radius: 10px;
-  color: #fba1a1;
+  color: #44149d;
   background: transparent;
   font-size: 1.1rem;
   font-weight: bold;
@@ -157,15 +163,15 @@ textarea:focus {
 
 #submit:hover {
   transform: scale(1.07);
-  background: #fba1a1;
+  background: #44149d;
   color: white;
   border: none;
-  border: #fba1a1 solid;
+  border: #44149d solid;
 }
 
 /*  */
 .contact-icons {
-  background: #fba1a1;
+  background: #44149d;
   display: flex;
   justify-content: space-around;
   height: 6vh;

@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./contact.css";
 import emailjs from "@emailjs/browser";
-import contactbg from "../../assests/contactbg.svg";
+import contactbg2 from "../../assests/contactbg2.gif";
 import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
 import { FiLinkedin } from "react-icons/fi";
 import { SiMinutemailer } from "react-icons/si";
@@ -44,7 +44,7 @@ const Contact = () => {
               email or by using the contact form.
             </p>
             <div className="svg">
-              <img src={contactbg}></img>
+              <img src={contactbg2}></img>
             </div>
           </div>
           <div className="contact-two">

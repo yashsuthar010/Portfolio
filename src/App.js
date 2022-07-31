@@ -6,7 +6,7 @@ import Project from "./component/project/Project";
 import Contact from "./component/contact/Contact";
 import Service from "./component/service/Service";
 import Footer from "./component/footer/Footer";
-import Line from "./component/line/Line";
+// import Line from "./component/line/Line";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Project />
       <Service />
       <Contact />
-      <Line />
+      {/* <Line /> */}
       <Footer />
     </div>
   );

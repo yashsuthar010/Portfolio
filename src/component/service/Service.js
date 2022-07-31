@@ -10,8 +10,8 @@ const Service = () => {
   return (
     <>
       <div className="service">
+        <h2>Services</h2>
         <div className="service-container">
-          <h2>Services</h2>
           <div className="services">
             <div className="service0">
               <div className="service-img">
