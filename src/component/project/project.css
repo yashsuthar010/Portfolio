@@ -60,7 +60,7 @@
 
 .container2 .card .content1 .imgBx {
   position: relative;
-  width: 200px;
+  width: 280px;
   height: 200px;
   overflow: hidden;
 }
@@ -71,7 +71,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .container2 .card .content1 .contentBx h3 {

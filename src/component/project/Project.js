@@ -1,7 +1,10 @@
 import React from "react";
 import "./project.css";
-import hacker from "../../assests/hacker.png";
-import leet from "../../assests/leet.png";
+import algo from "../../assests/algo.png";
+import news from "../../assests/news.gif";
+import log from "../../assests/log.gif";
+import travel from "../../assests/travel.gif";
+import portfolio from "../../assests/portfolio.gif";
 
 const Project = () => {
   return (
@@ -14,7 +17,7 @@ const Project = () => {
               <div className="card">
                 <div className="content1">
                   <div className="imgBx">
-                    <img src={hacker} />
+                    <img src={news} />
                   </div>
                   <div className="contentBx">
                     <h3>SpeakandHear</h3>
@@ -32,7 +35,7 @@ const Project = () => {
               <div className="card">
                 <div className="content1">
                   <div className="imgBx">
-                    <img src={hacker} />
+                    <img src={log} />
                   </div>
                   <div className="contentBx">
                     <h3>ScolarPortal</h3>
@@ -50,7 +53,7 @@ const Project = () => {
               <div className="card">
                 <div className="content1">
                   <div className="imgBx">
-                    <img src={hacker} />
+                    <img src={travel} />
                   </div>
                   <div className="contentBx">
                     <h3>TourandTravel</h3>
@@ -68,7 +71,7 @@ const Project = () => {
               <div className="card">
                 <div className="content1">
                   <div className="imgBx">
-                    <img src={hacker} />
+                    <img src={algo} />
                   </div>
                   <div className="contentBx">
                     <h3>AlgoVisualizer</h3>
@@ -83,28 +86,11 @@ const Project = () => {
                   </a>
                 </ul>
               </div>
+
               <div className="card">
                 <div className="content1">
                   <div className="imgBx">
-                    <img src={hacker} />
-                  </div>
-                  <div className="contentBx">
-                    <h3>pythonApplication</h3>
-                  </div>
-                </div>
-                <ul className="sci">
-                  <a
-                    href="https://www.hackerrank.com/ysuthar071"
-                    target="_blank"
-                  >
-                    <button className="project-btn">View</button>
-                  </a>
-                </ul>
-              </div>
-              <div className="card">
-                <div className="content1">
-                  <div className="imgBx">
-                    <img src={leet} />
+                    <img src={portfolio} />
                   </div>
                   <div className="contentBx">
                     <h3>Portfolio</h3>

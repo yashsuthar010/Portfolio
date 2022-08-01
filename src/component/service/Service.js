@@ -1,6 +1,5 @@
 import React from "react";
 import "./service.css";
-import hacker from "../../assests/hacker.png";
 import responsive from "../../assests/responsive.png";
 import integraion from "../../assests/integration.png";
 import frontend from "../../assests/frontend.png";

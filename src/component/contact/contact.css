@@ -9,7 +9,7 @@
   border-radius: 20px 20px 0 0;
   overflow: hidden;
   display: flex;
-  height: 100vh;
+  height: 100%;
 }
 
 .contact-one {
@@ -34,7 +34,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  padding-right: 5%;
+  overflow: hidden;
 }
 
 img {
