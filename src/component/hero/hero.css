@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Centauri";
   src: local("Centauri"), url("../../fonts/Centauri.woff") format("woff");
-  /* font-weight: bold; */
+  font-weight: bold;
 }
 
 .hero {
@@ -28,7 +28,7 @@ video {
   position: absolute;
   z-index: 1;
   top: 30%;
-  left: 60%;
+  left: 65%;
   color: white;
   transform: translate(-50%, -50%);
 }
@@ -43,7 +43,7 @@ video {
 }
 
 .hero-container h1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 100;
   font-family: "Centauri";
   width: 100%;
@@ -74,5 +74,11 @@ video {
   }
   to {
     -webkit-mask-position: -50%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .hero-container h1 {
+    font-size: 4.1rem;
   }
 }
