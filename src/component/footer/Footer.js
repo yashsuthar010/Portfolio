@@ -12,7 +12,9 @@ const Footer = () => {
       <hr />
       <div className="footer">
         <div>
-          <h2>Yash</h2>
+          <h2>
+            Yash<span style={{ color: "red" }}>.</span>
+          </h2>
         </div>
         <div id="backtotop">
           <CgChevronDoubleUpR style={{ color: "white", fontSize: "40px" }} />

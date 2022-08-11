@@ -3,15 +3,14 @@ import "./nav.css";
 import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
 import { FiLinkedin } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
+import logo from "../../assests/logo.png";
 
 const Nav = () => {
   return (
     <>
       <nav>
-        <div>
-          <h2>
-            Portfolio<span style={{ color: "red" }}>.</span>
-          </h2>
+        <div id="logo">
+          <img src={logo}></img>
         </div>
         <div>
           <ul className="tabs">
