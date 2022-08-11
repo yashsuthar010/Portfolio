@@ -3,6 +3,8 @@ import "./hero.css";
 import "./button.css";
 import video3 from "../../assests/video3.mp4";
 
+import "../../fonts/Centauri.woff";
+
 const Hero = () => {
   return (
     <>

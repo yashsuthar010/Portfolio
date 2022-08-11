@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Centauri";
+  src: local("Centauri"), url("../../fonts/Centauri.woff") format("woff");
+  /* font-weight: bold; */
+}
+
 .hero {
   height: 90%;
   background: white;
@@ -22,7 +28,7 @@ video {
   position: absolute;
   z-index: 1;
   top: 30%;
-  left: 50%;
+  left: 60%;
   color: white;
   transform: translate(-50%, -50%);
 }
@@ -37,8 +43,10 @@ video {
 }
 
 .hero-container h1 {
-  font-size: 5.5rem;
+  font-size: 4.5rem;
   font-weight: 100;
+  font-family: "Centauri";
+  width: 100%;
 }
 
 .hero-container p {
@@ -49,7 +57,7 @@ video {
 .hero-container h1 {
   color: #ffffff;
   font-weight: 300;
-  font-family: "poppins", sans-serif;
+  /* font-family: "poppins", sans-serif; */
   -webkit-mask-image: linear-gradient(
     -75deg,
     rgba(0, 0, 0, 0.6) 30%,

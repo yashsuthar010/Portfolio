@@ -8,7 +8,6 @@ import Service from "./component/service/Service";
 import Footer from "./component/footer/Footer";
 // import Line from "./component/line/Line";
 // import Player from "./component/videoPlayer/Player";
-import "./fonts/Centauri.otf";
 
 function App() {
   return (

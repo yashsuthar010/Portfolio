@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: "Centauri";
+  src: local("Centauri"), url("./fonts/Centauri.woff") format("woff");
+  font-weight: bold;
+}
