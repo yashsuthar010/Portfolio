@@ -9,11 +9,11 @@ import portfolio from "../../assests/portfolio.gif";
 const Project = () => {
   return (
     <>
-      <div className="project">
+      <div className="project ">
         <div className="project-container">
-          <div className="project-bg">
+          <div className="project-bg ">
             <h1>Project</h1>
-            <div className="container2">
+            <div className="container2 ">
               <div className="card">
                 <div className="content1">
                   <div className="imgBx">
@@ -38,12 +38,12 @@ const Project = () => {
                     <img src={log} />
                   </div>
                   <div className="contentBx">
-                    <h3>ScolarPortal</h3>
+                    <h3>StudentPortal</h3>
                   </div>
                 </div>
                 <ul className="sci">
                   <a
-                    href="https://github.com/yashsuthar010/student-portal"
+                    href="https://github.com/yashsuthar010/StudentPortal"
                     target="_blank"
                   >
                     <button className="project-btn">View</button>

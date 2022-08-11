@@ -2,7 +2,7 @@ import React from "react";
 import "./nav.css";
 import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
 import { FiLinkedin } from "react-icons/fi";
-import { SiMinutemailer } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 
 const Nav = () => {
   return (
@@ -43,7 +43,7 @@ const Nav = () => {
             </li>
             <li>
               <a href="gvice008@gmail.com" target="_blank">
-                <SiMinutemailer />
+                <MdEmail />
               </a>
             </li>
             <li>

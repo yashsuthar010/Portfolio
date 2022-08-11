@@ -4,31 +4,29 @@
   height: 15vh;
   justify-content: space-between;
   padding: 0 3%;
-  background: #000;
+  margin: 0 5%;
+  background: rgb(255, 255, 255);
 }
 
 .footer h2 {
   font-size: 2rem;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .icons ul li {
   font-size: 30px;
 }
 
-hr {
-  width: 100px;
-  margin: 0;
-  height: 1px;
-  border: none;
-  size: 10;
-}
-
 .footer #backtotop {
-  background-color: transparent;
   transition: all ease-in-out 0.3s;
   cursor: pointer;
+  color: #000;
 }
 .footer #backtotop:hover {
   transform: scale(1.15);
+}
+
+hr {
+  width: 85%;
+  border: 1px solid;
 }

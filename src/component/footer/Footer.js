@@ -2,12 +2,14 @@ import React from "react";
 import "./footer.css";
 import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
 import { FiLinkedin } from "react-icons/fi";
-import { SiMinutemailer } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
+
 import { CgChevronDoubleUpR } from "react-icons/cg";
 
 const Footer = () => {
   return (
     <>
+      <hr />
       <div className="footer">
         <div>
           <h2>Yash</h2>
@@ -32,7 +34,7 @@ const Footer = () => {
             </li>
             <li>
               <a href="gvice008@gmail.com" target="_blank">
-                <SiMinutemailer />
+                <MdEmail />
               </a>
             </li>
             <li>

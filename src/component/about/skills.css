@@ -29,29 +29,29 @@
 }
 .skill-bar-container .skill-bar.level1 {
   width: 100%;
-  background-color: #d7edfa;
+  background-color: #105881;
 }
 .skill-bar-container .skill-bar.level2 {
   width: 60%;
-  background-color: #c8e7f8;
+  background-color: #146089;
 }
 .skill-bar-container .skill-bar.level3 {
   width: 90%;
-  background-color: #b9e0f7;
+  background-color: #347aa3;
 }
 .skill-bar-container .skill-bar.level4 {
   width: 60%;
-  background-color: #a9d9f5;
+  background-color: #136594;
 }
 .skill-bar-container .skill-bar.level5 {
   width: 90%;
-  background-color: #9ad3f3;
+  background-color: #5cb2e4;
 }
 .skill-bar-container .skill-name {
   position: absolute;
   top: 1px;
   left: 10px;
-  color: #333;
+  color: rgb(255, 255, 255);
 }
 .skill-bar-container .skill-percent {
   position: absolute;

@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import contactbg2 from "../../assests/contactbg2.gif";
 import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
 import { FiLinkedin } from "react-icons/fi";
-import { SiMinutemailer } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   const form = useRef();
@@ -75,7 +75,7 @@ const Contact = () => {
               </li>
               <li>
                 <a href="gvice008@gmail.com" target="_blank">
-                  <SiMinutemailer />
+                  <MdEmail />
                 </a>
               </li>
               <li>

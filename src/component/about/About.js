@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import "./skills.css";
-import rahul1 from "../../assests/rahul1.png";
+import yash_img from "../../assests/yash_img.jpg";
 
 import yash from "../../assests/yash.pdf";
 
@@ -92,7 +92,7 @@ const About = () => {
             </div>
 
             <div className="one">
-              <img src={rahul1} id="rahul"></img>
+              <img src={yash_img} id="yash"></img>
             </div>
           </div>
         </div>

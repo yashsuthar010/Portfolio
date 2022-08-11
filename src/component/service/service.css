@@ -1,7 +1,7 @@
 .service {
   height: 80vh;
   background: white;
-  padding: 0 1%;
+  padding: 0 5%;
 }
 
 .service-container {
@@ -19,7 +19,7 @@
 }
 
 .services {
-  height: 60vh;
+  height: 50vh;
   display: grid;
   width: 100%;
   padding: 5px 10px;
