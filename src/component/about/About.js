@@ -1,7 +1,14 @@
 import React from "react";
 import "./about.css";
 import "./skills.css";
-import yash_img from "../../assests/yash_img.jpg";
+import yash_img from "../../assests/yash_img.png";
+import python from "../../assests/python.png";
+import js from "../../assests/js.png";
+import react from "../../assests/react.png";
+import html from "../../assests/html.png";
+import css from "../../assests/css.png";
+import figma from "../../assests/figma.png";
+import vs from "../../assests/vs.png";
 
 import yash from "../../assests/yash.pdf";
 
@@ -21,31 +28,7 @@ const About = () => {
                 Intelligence
               </p>
               <br />
-              {/* <ul
-                className="icons"
-                style={{ height: "10vh", border: "red solid" }}
-              >
-                <li>
-                  <a href="https://github.com/yashsuthar010">
-                    <AiFillGithub />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/yashsuthar010">
-                    <FiLinkedin />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/yashsuthar010">
-                    <SiMinutemailer />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/yashsuthar010">
-                    <AiFillTwitterCircle />
-                  </a>
-                </li>
-              </ul> */}
+
               <br />
 
               <div className="btn-container1">
@@ -58,35 +41,30 @@ const About = () => {
               <br />
               <br />
               <h3 id="h3">My Skills</h3>
-              <div class="text-box">
-                <div class="skill-bar-container">
-                  <span class="skill-name">Javascript</span>
-                  <span class="skill-percent">90%</span>
-                  <span class="skill-bar level5"></span>
+              <div className="skill_container">
+                <div className="skill_img">
+                  <img src={python}></img>
                 </div>
-
-                <div class="skill-bar-container">
-                  <span class="skill-name">Python</span>
-                  <span class="skill-percent">60%</span>
-                  <span class="skill-bar level4"></span>
+                <div className="skill_img">
+                  <img src={js}></img>
                 </div>
-
-                <div class="skill-bar-container">
-                  <span class="skill-name">ReactJS</span>
-                  <span class="skill-percent">90%</span>
-                  <span class="skill-bar level3"></span>
+                <div className="skill_img">
+                  <img src={react}></img>
                 </div>
-
-                <div class="skill-bar-container">
-                  <span class="skill-name">Django</span>
-                  <span class="skill-percent">50%</span>
-                  <span class="skill-bar level2"></span>
+                <div className="skill_img">
+                  <img src={html}></img>
                 </div>
-
-                <div class="skill-bar-container">
-                  <span class="skill-name">HTML5 & CSS3</span>
-                  <span class="skill-percent">100%</span>
-                  <span class="skill-bar level1"></span>
+                <div className="skill_img">
+                  <img src={css}></img>
+                </div>
+              </div>
+              <h3 id="h3">Tools</h3>
+              <div className="skill_container">
+                <div className="skill_img">
+                  <img src={figma}></img>
+                </div>
+                <div className="skill_img">
+                  <img src={vs}></img>
                 </div>
               </div>
             </div>

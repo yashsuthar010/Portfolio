@@ -1,7 +1,7 @@
 .service {
   height: 80vh;
   background: white;
-  padding: 0 5%;
+  padding: 0 2%;
 }
 
 .service-container {
@@ -51,10 +51,6 @@
   height: 60%;
   /* padding: 10px; */
   width: 80%;
-  transition: all ease-in-out 0.3s;
-}
-.service-img:hover {
-  transform: scale(1.05);
 }
 
 .service0 img {

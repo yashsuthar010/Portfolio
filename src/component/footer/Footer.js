@@ -3,6 +3,7 @@ import "./footer.css";
 import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
 import { FiLinkedin } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
+import logo from "../../assests/logo.png";
 
 import { CgChevronDoubleUpR } from "react-icons/cg";
 
@@ -11,15 +12,13 @@ const Footer = () => {
     <>
       <hr />
       <div className="footer">
-        <div>
-          <h2>
-            Yash<span style={{ color: "red" }}>.</span>
-          </h2>
+        <div id="logo">
+          <img src={logo}></img>
         </div>
         <div id="backtotop">
-          <CgChevronDoubleUpR style={{ color: "white", fontSize: "40px" }} />
+          <CgChevronDoubleUpR style={{ color: "black", fontSize: "50px" }} />
         </div>
-        <div>
+        {/* <div>
           <ul className="icons">
             <li>
               <a href="https://github.com/yashsuthar010" target="_blank">
@@ -45,7 +44,7 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -74,7 +74,7 @@ const Contact = () => {
                 </a>
               </li>
               <li>
-                <a href="gvice008@gmail.com" target="_blank">
+                <a href="http://gvice008@gmail.com" target="_blank">
                   <MdEmail />
                 </a>
               </li>
