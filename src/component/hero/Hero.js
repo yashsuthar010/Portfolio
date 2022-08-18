@@ -13,7 +13,10 @@ const Hero = () => {
       <section className="hero">
         <div className="hero-container">
           <div className="hero_content">
-            <h1 id="h1">I'm Yash Suthar</h1>
+            <h1 id="h1">
+              Hi! I Am <br />
+              Yash Suthar
+            </h1>
             <p>
               <Typewriter
                 options={{
