@@ -10,12 +10,13 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 0 4.2% 1% 4.2%;
-  box-shadow: 0 15px 35px rgba(184, 183, 183, 0.5);
+  box-shadow: 0 15px 50px rgba(137, 137, 137, 0.5);
   backdrop-filter: blur(12px);
 
-  background: rgb(255, 255, 255);
+  /* background: rgb(106, 110, 127); */
   align-items: center;
   flex-wrap: wrap;
+  border-bottom: black solid 1.5px;
 }
 
 h2 {
@@ -23,7 +24,6 @@ h2 {
 }
 
 .tabs {
-  background: white;
   display: flex;
   width: 400px;
   height: 9vh;
@@ -36,7 +36,7 @@ h2 {
 .tabs li {
   list-style-type: none;
   font-size: 1em;
-  color: black;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   transition: all ease-in-out 0.3s;
 }
@@ -54,7 +54,7 @@ h3 {
   justify-content: space-around;
   width: 200px;
   padding: 0;
-  background: #000;
+  background: rgb(0, 0, 0);
   align-items: center;
   flex-wrap: wrap;
   width: 30vh;
@@ -64,7 +64,6 @@ h3 {
 
 .icons li {
   font-size: 24px;
-  color: white;
   list-style-type: none;
   cursor: pointer;
   /* opacity: 0.8; */

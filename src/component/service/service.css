@@ -1,7 +1,7 @@
 .service {
   height: 80vh;
   background: rgb(243, 243, 243);
-
+  position: relative;
   padding: 1% 3%;
 }
 

@@ -10,15 +10,12 @@ import { CgChevronDoubleUpR } from "react-icons/cg";
 const Footer = () => {
   return (
     <>
-      <div id="foot">
-        <hr />
-        <div className="footer">
-          <div id="logo">
-            <img src={logo}></img>
-          </div>
-          <div id="backtotop">
-            <CgChevronDoubleUpR style={{ color: "black", fontSize: "50px" }} />
-          </div>
+      <div className="footer">
+        <div id="logo">
+          <img src={logo}></img>
+        </div>
+        <div id="backtotop">
+          <CgChevronDoubleUpR style={{ color: "black", fontSize: "50px" }} />
         </div>
       </div>
     </>
