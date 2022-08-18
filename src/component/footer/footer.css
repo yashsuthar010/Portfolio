@@ -3,11 +3,13 @@
   align-items: center;
   height: 13vh;
   justify-content: space-between;
-  padding: 0 2%;
-  margin: 0 2%;
+  padding: 0 3%;
   background: rgb(255, 255, 255);
 }
 
+#foot {
+  overflow: hidden;
+}
 .icons ul li {
   font-size: 30px;
 }
@@ -23,7 +25,8 @@
 }
 
 hr {
-  width: 93%;
+  width: 100%;
+  overflow: hidden;
   border: 1px solid;
   background: #000;
 }

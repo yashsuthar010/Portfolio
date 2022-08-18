@@ -10,41 +10,16 @@ import { CgChevronDoubleUpR } from "react-icons/cg";
 const Footer = () => {
   return (
     <>
-      <hr />
-      <div className="footer">
-        <div id="logo">
-          <img src={logo}></img>
+      <div id="foot">
+        <hr />
+        <div className="footer">
+          <div id="logo">
+            <img src={logo}></img>
+          </div>
+          <div id="backtotop">
+            <CgChevronDoubleUpR style={{ color: "black", fontSize: "50px" }} />
+          </div>
         </div>
-        <div id="backtotop">
-          <CgChevronDoubleUpR style={{ color: "black", fontSize: "50px" }} />
-        </div>
-        {/* <div>
-          <ul className="icons">
-            <li>
-              <a href="https://github.com/yashsuthar010" target="_blank">
-                <AiFillGithub />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/yash-suthar005/"
-                target="_blank"
-              >
-                <FiLinkedin />
-              </a>
-            </li>
-            <li>
-              <a href="gvice008@gmail.com" target="_blank">
-                <MdEmail />
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/YashSut95822902" target="_blank">
-                <AiFillTwitterCircle />
-              </a>
-            </li>
-          </ul>
-        </div> */}
       </div>
     </>
   );

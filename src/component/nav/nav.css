@@ -9,8 +9,11 @@ nav {
   height: 10vh;
   display: flex;
   justify-content: space-between;
-  padding: 0.1% 4.2% 1% 4.2%;
-  background: white;
+  padding: 0 4.2% 1% 4.2%;
+  box-shadow: 0 15px 35px rgba(184, 183, 183, 0.5);
+  backdrop-filter: blur(12px);
+
+  background: rgb(255, 255, 255);
   align-items: center;
   flex-wrap: wrap;
 }
@@ -23,7 +26,7 @@ h2 {
   background: white;
   display: flex;
   width: 400px;
-  height: 10vh;
+  height: 9vh;
   justify-content: space-around;
   padding: 0;
   align-items: center;
@@ -75,6 +78,7 @@ h3 {
 
 #logo {
   height: 10vh;
+  margin-bottom: 5px;
 }
 
 #logo img {
