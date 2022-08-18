@@ -40,12 +40,7 @@
   font-weight: bold;
   /* margin: 3px; */
   /* color: white; */
-  color: rgb(76, 74, 74);
-}
-.service0 p {
-  color: rgb(87, 85, 85);
-  display: flex;
-  justify-content: center;
+  color: rgb(142, 140, 140);
 }
 
 .service-img {

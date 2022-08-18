@@ -68,11 +68,11 @@ h3 {
   list-style-type: none;
   cursor: pointer;
   /* opacity: 0.8; */
-  transition: all ease-in-out 0.3s;
+  transition: 0.01s;
 }
 
 .icons li:hover {
-  transform: scale(1.06);
+  transform: scale(1.01);
   opacity: 1;
 }
 
