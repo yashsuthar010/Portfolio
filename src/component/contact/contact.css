@@ -62,16 +62,20 @@ img {
 }
 
 form {
-  margin: 70px 160px 0 160px;
+  margin-top: 70px;
+  margin-left: 110px;
   display: flex;
+  width: 65%;
   flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 label {
   color: black;
   font-size: 1.2rem;
   font-weight: bold;
-  margin: 0 0 4px 0;
+  margin: 0 0 5px 0;
 }
 
 /* input {
@@ -138,9 +142,10 @@ textarea {
   opacity: 0.8;
   border: none;
 
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 10px;
+  padding: 15px;
   height: 10vh;
+  width: 90%;
 }
 
 textarea:focus {
@@ -157,12 +162,12 @@ textarea:focus {
   font-size: 1.1rem;
   font-weight: bold;
   width: 200px;
-  margin: 20px 50px 0 50px;
-  transition: all ease-in-out 0.3s;
+  margin-top: 20px;
+  margin-left: 100px;
+  transition: all ease-in-out 0.2s;
 }
 
 #submit:hover {
-  transform: scale(1.07);
   background: #44149d;
   color: white;
   border: none;
@@ -176,7 +181,7 @@ textarea:focus {
   justify-content: space-around;
   height: 6vh;
   font-size: 25px;
-  margin: 0 25%;
+  margin: 0 28%;
   padding: 0;
   border-radius: 30px;
 }

@@ -1,8 +1,12 @@
+* {
+  scroll-behavior: smooth;
+}
+
 .project {
   min-height: 100vh;
-  background: white;
-  color: white;
-  padding: 3% 2%;
+  background: #ffffff;
+
+  padding: 1% 2%;
 }
 
 .project-container {
@@ -12,14 +16,12 @@
   border-radius: 20px 20px 0 0;
   position: relative;
   overflow: hidden;
-  background: #5b7796;
 }
 
 .project-container h1 {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 3rem;
-  position: relative;
-  z-index: 1;
+  margin-left: 50px;
 }
 
 .container2 {
@@ -34,17 +36,23 @@
   position: relative;
   width: 300px;
   height: 400px;
-  background: rgba(255, 255, 255, 0.05);
+  border: #000000 solid 1.5px;
+  background: #ffffff;
   margin: 20px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   display: flex;
+  transform: translateY(10px);
+  transition: 0.2s;
   z-index: 1;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
 }
 
+.container2 .card:hover {
+  box-shadow: 0 15px 35px rgba(141, 140, 140, 0.5);
+  transform: translateY(0px);
+}
 .container2 .card .content1 {
   position: relative;
   display: flex;
@@ -75,7 +83,7 @@
 }
 
 .container2 .card .content1 .contentBx h3 {
-  color: rgb(214, 214, 214);
+  color: rgb(0, 0, 0);
   /* text-transform: uppercase; */
   letter-spacing: 2px;
   font-weight: 500;
@@ -115,33 +123,27 @@
 .container2 .card .sci .project-btn {
   font-size: 15px;
   padding: 8px 50px;
-  background: transparent;
+  background: #000000;
   border-radius: 5px;
-  color: white;
-  border: rgb(220, 218, 218) solid 1px;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   font-weight: 300;
-}
-
-.container2 .card .sci .project-btn:hover {
-  font-size: 15px;
-  padding: 8px 50px;
   border: none;
-  color: rgb(0, 0, 0);
-  background: rgb(255, 255, 255);
 }
 
 /* ADDIOTIONAL */
-.project-bg::before {
+/* .project-bg::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #133558;
-  clip-path: polygon(0 0%, 100% 0%, 100% 20%, 0 100%);
-}
+  background: #cdc2ae;
+  clip-path: circle(20% at 30% 50%);
+  transform: translatex(0px);
+  transition: 0.5s;
+} */
 
 /* .project-bg::after {
   content: "";
@@ -150,6 +152,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#dfbb9d, #f5e6dd);
-  clip-path: circle(50% at 10% 10%);
+  background: linear-gradient(#fffefe, #ffffff);
+  clip-path: circle(10% at 30% 50%);
 } */

@@ -1,10 +1,10 @@
 import React from "react";
 import "./project.css";
 import algo from "../../assests/algo.png";
-import news from "../../assests/news.gif";
-import log from "../../assests/log.gif";
-import travel from "../../assests/travel.gif";
-import portfolio from "../../assests/portfolio.gif";
+import news from "../../assests/news.png";
+import portal from "../../assests/portal.png";
+import travel from "../../assests/travel.png";
+import port from "../../assests/port.png";
 
 const Project = () => {
   return (
@@ -35,7 +35,7 @@ const Project = () => {
               <div className="card">
                 <div className="content1">
                   <div className="imgBx">
-                    <img src={log} />
+                    <img src={[portal]} />
                   </div>
                   <div className="contentBx">
                     <h3>StudentPortal</h3>
@@ -90,7 +90,7 @@ const Project = () => {
               <div className="card">
                 <div className="content1">
                   <div className="imgBx">
-                    <img src={portfolio} />
+                    <img src={port} />
                   </div>
                   <div className="contentBx">
                     <h3>Portfolio</h3>

@@ -83,7 +83,5 @@
 }
 
 .btn-container {
-  position: absolute;
-  bottom: 30%;
-  left: 8%;
+  margin: 60px 20px;
 }
