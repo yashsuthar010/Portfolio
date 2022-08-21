@@ -16,6 +16,7 @@ const Service = () => {
               <div className="service-img">
                 <img src={frontend}></img>
               </div>
+
               <h3>
                 Front-end design <br />
                 and development

@@ -8,12 +8,8 @@
 .skill_img {
   height: 8vh;
   border-radius: 50%;
-  background-color: rgb(239, 237, 237);
+  background-color: rgb(255, 255, 255);
   padding: 7px;
-}
-
-.skill_img:hover {
-  border: hsl(240, 2%, 74%) solid 1.7px;
 }
 
 #h3 {

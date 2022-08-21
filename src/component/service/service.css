@@ -1,15 +1,18 @@
 .service {
   height: 80vh;
-  background: rgb(243, 243, 243);
-  position: relative;
-  padding: 1% 3%;
+  padding: 0% 3%;
 }
 
 .service-container {
-  padding: 10px 25px;
+  margin: 10px 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   height: 50vh;
+  width: 95%;
+  /* background-color: #202040; */
+  gap: 30px;
   border-radius: 20px;
-  /* background: linear-gradient(to left, rgb(2, 56, 60), rgb(4, 23, 49)); */
 }
 
 .service h2 {
@@ -20,39 +23,34 @@
 .services {
   height: 50vh;
   display: grid;
-  width: 100%;
-  padding: 5px 10px;
-  column-gap: 30px;
-  /* grid-template-columns: repeat(auto-fit, 285px); */
+  width: 90%;
+  gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
 }
 
 .service0 {
-  padding: 2px 2px 0 2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #ffffff;
-  transform: translatex(0px);
-  border: black solid 1.5px;
-  border-radius: 20% 20% 5% 20%;
+  margin-top: 20px;
+  background: #535c71;
+  height: 45vh;
+  /* box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(12px); */
+  border-radius: 40% 20% 40% 20%;
 }
 .service0 h3 {
   font-weight: bold;
-  /* margin: 3px; */
-  /* color: white; */
-  color: rgb(142, 140, 140);
+  color: rgb(255, 255, 255);
 }
 
 .service-img {
-  height: 45%;
-  /* padding: 10px; */
-  width: 70%;
+  height: 55%;
+  width: 80%;
 }
 
 .service0 img {
-  border-radius: 30px;
   width: 100%;
   height: 100%;
   object-fit: contain;

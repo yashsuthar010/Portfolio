@@ -7,9 +7,9 @@
 .contact-container {
   /* background: linear-gradient(to left, rgb(0, 0, 0), #576f72); */
   border-radius: 20px 20px 0 0;
-  overflow: hidden;
   display: flex;
   height: 100%;
+  background: white;
 }
 
 .contact-one {
@@ -47,12 +47,14 @@ img {
   width: 50%;
   display: flex;
   flex-direction: column;
-  background: #e9b832;
   border-radius: 10px;
+  border: solid black 2px;
+
+  background: rgb(253, 253, 253);
 }
 
 .contact-two h2 {
-  color: white;
+  color: rgb(0, 0, 0);
 
   display: flex;
   flex-direction: column;
@@ -73,45 +75,10 @@ form {
 
 label {
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
   margin: 0 0 5px 0;
 }
-
-/* input {
-  padding: 10px;
-  border-radius: 5px;
-  overflow: hidden;
-  border: none;
-
-  background: rgb(232, 232, 232);
-  transition: all ease-in-out 0.3s;
-  opacity: 0.7;
-  outline: none;
-}
-
-input::placeholder {
-  color: gray;
-  outline: none;
-  opacity: 0.7;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-input:hover {
-  color: black;
-  outline: none;
-  opacity: 1;
-  border: none;
-}
-
-input[type="text"]:focus {
-  opacity: 0.8;
-  border-bottom: #ffafaf solid 3px;
-}
-input[type="email"]:focus {
-  opacity: 0.8;
-  border-bottom: #ffafaf solid 3px;
-} */
 
 input[type="text"],
 input[type="email"] {
@@ -122,25 +89,27 @@ input[type="email"] {
   /* margin: 5px 0 22px 90px; */
   /* margin: 0px 90px; */
   display: inline-block;
-  border: none;
+  border: rgb(155, 155, 155) 1.5px solid;
+
   background: #ffffff;
   border-radius: 10px;
-  opacity: 0.8;
+  backdrop-filter: blur(12px);
+
   outline: none;
 }
 input[type="text"]:focus {
-  opacity: 1;
-  border-bottom: #44149d solid 3px;
+  box-shadow: 0 15px 35px rgba(141, 140, 140, 0.5);
+  border: none;
 }
 input[type="email"]:focus {
-  opacity: 1;
-  border-bottom: #44149d solid 3px;
+  box-shadow: 0 15px 35px rgba(141, 140, 140, 0.5);
+  border: none;
 }
 textarea {
-  background: #f1f1f1;
+  background: #ffffff;
   outline: none;
-  opacity: 0.8;
-  border: none;
+
+  border: rgb(155, 155, 155) 1.5px solid;
 
   border-radius: 10px;
   padding: 15px;
@@ -149,34 +118,28 @@ textarea {
 }
 
 textarea:focus {
-  opacity: 1;
-  border-bottom: #44149d solid 3px;
+  border: none;
+  box-shadow: 0 15px 35px rgba(141, 140, 140, 0.5);
 }
 
 #submit {
   padding: 10px 10px;
-  border: solid #44149d;
   border-radius: 10px;
-  color: #44149d;
-  background: transparent;
+  color: white;
+  background: #ff7f3f;
   font-size: 1.1rem;
   font-weight: bold;
+  border: none;
   width: 200px;
   margin-top: 20px;
+  cursor: pointer;
   margin-left: 100px;
   transition: all ease-in-out 0.2s;
 }
 
-#submit:hover {
-  background: #44149d;
-  color: white;
-  border: none;
-  border: #44149d solid;
-}
-
 /*  */
 .contact-icons {
-  background: #44149d;
+  background: #ec6e2b;
   display: flex;
   justify-content: space-around;
   height: 6vh;

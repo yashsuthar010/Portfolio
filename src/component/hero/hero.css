@@ -18,12 +18,10 @@
 }
 
 .hero-container {
-  /* position: relative; */
   display: flex;
   height: 93vh;
   overflow: hidden;
 
-  /* border: red solid; */
   width: 100%;
 }
 
@@ -39,7 +37,6 @@
 
 .hero_content h1 {
   font-size: 4.2rem;
-  /* font-family: "Centauri"; */
   margin: 0;
   color: black;
 }

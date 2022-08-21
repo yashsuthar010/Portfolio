@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./contact.css";
 import emailjs from "@emailjs/browser";
-import contactbg2 from "../../assests/contactbg2.gif";
+import Mention from "../../assests/Mention.gif";
 import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
 import { FiLinkedin } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
@@ -54,61 +54,63 @@ const Contact = () => {
               </span>
             </p>
             <div className="svg">
-              <img src={contactbg2}></img>
+              <img src={Mention}></img>
             </div>
           </div>
           <div className="contact-two">
-            <h2>Contact</h2>
-            <ul className="contact-icons">
-              <li>
-                <a href="https://github.com/yashsuthar010" target="_blank">
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/yash-suthar005/"
-                  target="_blank"
-                >
-                  <FiLinkedin />
-                </a>
-              </li>
-              <li>
-                <a href="http://gvice008@gmail.com" target="_blank">
-                  <MdEmail />
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/YashSut95822902" target="_blank">
-                  <AiFillTwitterCircle />
-                </a>
-              </li>
-            </ul>
+            <div className="form">
+              <h2>Contact</h2>
+              <ul className="contact-icons">
+                <li>
+                  <a href="https://github.com/yashsuthar010" target="_blank">
+                    <AiFillGithub />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/yash-suthar005/"
+                    target="_blank"
+                  >
+                    <FiLinkedin />
+                  </a>
+                </li>
+                <li>
+                  <a href="http://gvice008@gmail.com" target="_blank">
+                    <MdEmail />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/YashSut95822902" target="_blank">
+                    <AiFillTwitterCircle />
+                  </a>
+                </li>
+              </ul>
 
-            <form ref={form} onSubmit={sendEmail}>
-              <label>Name</label>
-              <input
-                placeholder="Name"
-                type="text"
-                name="user_name"
-                required
-              />{" "}
-              <br />
-              <label>Email</label>
-              <input
-                placeholder="Email"
-                type="email"
-                name="user_email"
-                required
-              />
-              <br />
-              <label>Message</label>
-              <textarea type="message" placeholder="Message" name="message" />
-              <br />
-              <button type="submit" value="Send" id="submit">
-                Send
-              </button>
-            </form>
+              <form ref={form} onSubmit={sendEmail}>
+                <label>Name</label>
+                <input
+                  placeholder="Name"
+                  type="text"
+                  name="user_name"
+                  required
+                />{" "}
+                <br />
+                <label>Email</label>
+                <input
+                  placeholder="Email"
+                  type="email"
+                  name="user_email"
+                  required
+                />
+                <br />
+                <label>Message</label>
+                <textarea type="message" placeholder="Message" name="message" />
+                <br />
+                <button type="submit" value="Send" id="submit">
+                  Send
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </div>

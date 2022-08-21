@@ -1,12 +1,9 @@
 .footer {
   display: flex;
   align-items: center;
-  height: 13vh;
+  height: 11vh;
   justify-content: space-between;
   padding: 0 3%;
-  border-top: #000 solid 1.5px;
-  box-shadow: 0 15px 50px rgba(48, 48, 48, 0.5);
-  backdrop-filter: blur(12px);
   background: rgb(255, 255, 255);
 }
 

@@ -7,6 +7,8 @@
   /* font-weight: bold; */
   letter-spacing: 0.05rem;
   border: none;
+  color: white;
+  background: #2c394b;
   padding: 0.7rem 1.5rem;
   background-image: url("../../assests/valorant.png");
   background-size: 150%;
@@ -21,7 +23,7 @@
 
 .btn:hover {
   border: 1px solid (--primary-color);
-  color: white;
+  color: rgb(255, 255, 255);
   background-position: 50%;
 }
 
