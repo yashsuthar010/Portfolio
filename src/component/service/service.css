@@ -34,7 +34,9 @@
   justify-content: center;
   align-items: center;
   background: #ffffff;
-  border-radius: 40% 20%;
+  transform: translatex(0px);
+  border: black solid 1.5px;
+  border-radius: 20% 20% 5% 20%;
 }
 .service0 h3 {
   font-weight: bold;
