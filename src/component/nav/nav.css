@@ -44,11 +44,6 @@ h3 {
   font-weight: bold;
 }
 
-.tabs li:hover {
-  transform: scale(1.06);
-  opacity: 1;
-}
-
 .icons {
   display: flex;
   justify-content: space-around;
@@ -68,11 +63,6 @@ h3 {
   cursor: pointer;
   /* opacity: 0.8; */
   transition: 0.01s;
-}
-
-.icons li:hover {
-  transform: scale(1.01);
-  opacity: 1;
 }
 
 #logo {

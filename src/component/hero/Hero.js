@@ -14,7 +14,8 @@ const Hero = () => {
         <div className="hero-container">
           <div className="hero_content">
             <h1 id="h1">
-              Hi! I Am <br />
+              Hi! I Am{"  "}
+              <br />
               Yash Suthar
             </h1>
             <p>
