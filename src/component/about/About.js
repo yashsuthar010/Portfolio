@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import "./skills.css";
-import yash_img from "../../assests/yash_img.png";
+import yash_img from "../../assests/yash_img.jpg";
 import python from "../../assests/python.png";
 import js from "../../assests/js.png";
 import react from "../../assests/react.png";
