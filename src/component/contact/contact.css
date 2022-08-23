@@ -48,9 +48,9 @@ img {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  border: solid black 2px;
-
-  background: rgb(253, 253, 253);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 15px 35px rgba(141, 140, 140, 0.5);
+  background: rgb(252, 252, 252);
 }
 
 .contact-two h2 {
