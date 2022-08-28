@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./nav.css";
 import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
 import { FiLinkedin } from "react-icons/fi";
@@ -6,9 +6,22 @@ import { MdEmail } from "react-icons/md";
 import logo from "../../assests/logo.png";
 
 const Nav = () => {
+  useEffect(() => {
+    window.addEventListener("scroll", isSticky);
+    return () => {
+      window.removeEventListener("scroll", isSticky);
+    };
+  });
+  const isSticky = (e) => {
+    const header = document.querySelector(".header-section");
+    const scrollTop = window.scrollY;
+    scrollTop >= 250
+      ? header.classList.add("is-sticky")
+      : header.classList.remove("is-sticky");
+  };
   return (
     <>
-      <nav>
+      <nav className="header-section d-none d-xl-block">
         <div id="logo">
           <img src={logo}></img>
         </div>

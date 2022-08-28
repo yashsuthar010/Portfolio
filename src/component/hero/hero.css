@@ -7,7 +7,7 @@
 .hero {
   height: 80%;
   background: white;
-  padding: 0 7% 0% 7%;
+  padding: 0 7%;
 }
 
 .hero_content {
@@ -19,7 +19,7 @@
 
 .hero-container {
   display: flex;
-  height: 93vh;
+  height: 95vh;
   overflow: hidden;
 
   width: 100%;

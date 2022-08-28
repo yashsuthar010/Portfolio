@@ -19,7 +19,8 @@
   cursor: pointer;
   color: #000;
   margin-top: 5px;
-  height: 7.5vh;
+  height: 7vh;
+  margin-bottom: 2%;
 }
 .footer #backtotop:hover {
   transform: scale(1.05);
