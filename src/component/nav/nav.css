@@ -9,10 +9,12 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 0 4%;
+  padding-bottom: 0.8%;
+  border-bottom: gray solid;
+
   align-items: center;
-  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
-  backdrop-filter: blur(15px);
   flex-wrap: wrap;
+  background: #000;
 }
 
 h2 {
@@ -23,22 +25,18 @@ h2 {
 .tabs {
   display: flex;
   width: 400px;
-  height: 2vh;
   justify-content: space-around;
   padding: 0;
   align-items: center;
   flex-wrap: wrap;
   margin-left: 10%;
-  margin-bottom: 20%;
 }
 .tabs li {
   list-style-type: none;
-  font-size: 1em;
-  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
   cursor: pointer;
-}
-h3 {
-  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .icons {
@@ -46,13 +44,11 @@ h3 {
   justify-content: space-around;
   width: 200px;
   padding: 0;
-  background: rgb(0, 0, 0);
   align-items: center;
   flex-wrap: wrap;
   width: 30vh;
-  border-radius: 30px;
+  border-radius: 20px;
   height: 6vh;
-  margin-bottom: 20%;
 }
 
 .icons li {
@@ -65,7 +61,6 @@ h3 {
 
 #logo {
   height: 8vh;
-  margin-bottom: 2.5%;
 }
 
 #logo img {
@@ -81,10 +76,10 @@ h3 {
   width: 1400px;
   z-index: 999;
   box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
-  background-color: #ffffff !important;
+  background-color: #000000 !important;
   animation: 800ms ease-in-out 3s normal none 1 running fadeInUp;
   padding-top: 0px;
   padding-bottom: 1%;
-
-  height: 8vh;
+  border-bottom: gray solid;
+  height: 10vh;
 }

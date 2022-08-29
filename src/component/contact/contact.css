@@ -62,7 +62,7 @@ img {
 }
 
 form {
-  margin-top: 70px;
+  margin-top: 50px;
   margin-left: 110px;
   display: flex;
   width: 65%;
@@ -95,14 +95,7 @@ input[type="email"] {
 
   outline: none;
 }
-input[type="text"]:focus {
-  box-shadow: 0 15px 35px rgba(141, 140, 140, 0.5);
-  border: none;
-}
-input[type="email"]:focus {
-  box-shadow: 0 15px 35px rgba(141, 140, 140, 0.5);
-  border: none;
-}
+
 textarea {
   background: #ffffff;
   outline: none;
@@ -113,11 +106,6 @@ textarea {
   padding: 15px;
   height: 10vh;
   width: 90%;
-}
-
-textarea:focus {
-  border: none;
-  box-shadow: 0 15px 35px rgba(141, 140, 140, 0.5);
 }
 
 #submit {
@@ -137,7 +125,7 @@ textarea:focus {
 
 /*  */
 .contact-icons {
-  background: #ff7f3f;
+  background: #f37121;
   display: flex;
   justify-content: space-around;
   height: 6vh;
