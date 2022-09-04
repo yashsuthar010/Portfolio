@@ -10,7 +10,7 @@ nav {
   justify-content: space-between;
   padding: 0 4%;
   /* padding-bottom: 0.8%; */
-  /* border-bottom: gray solid; */
+  border-bottom: rgb(177, 177, 177) solid 1.5px;
   box-shadow: 0 15px 35px rgba(175, 175, 175, 0.5);
   backdrop-filter: blur(15px);
   align-items: center;
